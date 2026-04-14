@@ -60,6 +60,8 @@ const Contact = () => {
 
         <div className="profile_courses">
 
+          <div className="boxes_profile">
+
           <div className="box1">
             <h3>
               Profile
@@ -70,6 +72,8 @@ const Contact = () => {
             <h3>
               Courses
             </h3>
+          </div>
+
           </div>
 
           <div className="alexa_box">

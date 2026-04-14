@@ -81,3 +81,9 @@
 .Signin {
   color: #fff;
 }
+
+.profile_courses .boxes_profile {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
