@@ -1,0 +1,109 @@
+.container1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.left_container {
+  margin-left: 50px;
+}
+
+.left_container .header img {
+  width: 700px;
+  height: 100px;
+  margin-bottom: 180px;
+}
+
+.left_container .main_login h2 {
+  font-weight: 400;
+  font-size: 86px;
+  font-family: Impact;
+  margin-left: 30px;
+}
+
+.inputs {
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.inputs .input_box input {
+  width: 454px;
+  height: 60px;
+  border: 1px solid #8F8F8F;
+  background-color: #fff;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #8F8F8F;
+  text-indent: 16px;
+  margin-top: 40px;
+}
+
+.inputs .input_box span {
+  position: relative;
+  left: -40px;
+  font-size: 30px;
+  top: 8px;
+  cursor: pointer;
+}
+
+.inputs .password_input input {
+  width: 454px;
+  height: 60px;
+  border: 1px solid #8F8F8F;
+  background-color: #fff;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #8F8F8F;
+  text-indent: 16px;
+  margin-top: 20px;
+}
+
+.inputs .button_signin button{
+  width: 454px;
+  height: 60px;
+  border: none;
+  background-color: #009688;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  text-indent: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.inputs h3 {
+  font-weight: 400;
+  font-size: 26px;
+  color: #8F8F8F;
+  margin-left: 120px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.Register {
+  color: #8F8F8F;
+}
+
+.right_container {
+  background-color: #009688;
+  width: 780px;
+  height: 984px;
+}
+
+.right_container .img1 img {
+  width: 500px;
+  height: 500px;
+  margin-top: 152px;
+}
+
+.right_container .welcome_text h3 {
+  width: 605px;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 36px;
+}
