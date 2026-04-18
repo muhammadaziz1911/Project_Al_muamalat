@@ -19,6 +19,7 @@
   justify-content: space-evenly;
   align-items: center;
   padding: 0 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
@@ -82,10 +83,15 @@
   color: #fff;
 }
 
+.profile_courses {
+  padding: 130px 140px;
+}
+
 .profile_courses .boxes_profile {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 30px;
+  padding-bottom: 28px;
 }
 
 .profile_courses .boxes_profile .box1 {
@@ -95,4 +101,176 @@
   border-radius: 10px;
   padding: 10px 50px;
   color: #fff;
+  font-size: 16px
+}
+
+.profile_courses .boxes_profile .box2 {
+  width: 157px;
+  height: 43px;
+  border: 1px solid #686868;
+  border-radius: 10px;
+  padding: 10px 42px;
+  color: #686868;
+}
+
+
+.alexa_box {
+  padding-top: 30px;
+  height: 450px;
+  box-shadow: 2px 2px 40px 1px #0000001A;
+
+}
+
+.alexa_box .header_alexa {
+  padding: 32px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.alexa_box .header_alexa .img {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.alexa_box .header_alexa .img h2 {
+  font-weight: 500;
+  font-size: 32px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.alexa_box .header_alexa .button_save button {
+  padding: 15px 28px;
+  border-radius: 8px;
+  background-color: #009688;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.alexa_box .input_box1 {
+  padding-top: 32px;
+  display: flex;
+  align-items: center;
+  gap: 41px;
+  padding-left: 32px;
+}
+
+.alexa_box .input_box1 .firstname_input h3 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  padding-bottom: 12px;
+}
+
+.alexa_box .input_box1 .firstname_input input {
+  width: 575px;
+  height: 50px;
+  background-color: #F9F9F9;
+  border-radius: 8px;
+  border: none;
+  text-indent: 18px;
+  font-size: 16px;
+}
+
+.alexa_box .input_box1 .lastname_input h3 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  padding-bottom: 12px;
+}
+
+.alexa_box .input_box1 .lastname_input input {
+  width: 575px;
+  height: 50px;
+  background-color: #F9F9F9;
+  border-radius: 8px;
+  border: none;
+  text-indent: 18px;
+  font-size: 16px;
+}
+
+/* adress_input_box2 */
+
+.alexa_box .input_box2 {
+  padding-top: 32px;
+  display: flex;
+  align-items: center;
+  gap: 41px;
+  padding-left: 32px;
+}
+
+.alexa_box .input_box2 .firstname_input h3 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  padding-bottom: 12px;
+}
+
+.alexa_box .input_box2 .firstname_input input {
+  width: 575px;
+  height: 50px;
+  background-color: #F9F9F9;
+  border-radius: 8px;
+  border: none;
+  text-indent: 18px;
+  font-size: 16px;
+}
+
+.alexa_box .input_box2 .lastname_input h3 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  padding-bottom: 12px;
+}
+
+.alexa_box .input_box2 .lastname_input input {
+  width: 575px;
+  height: 50px;
+  background-color: #F9F9F9;
+  border-radius: 8px;
+  border: none;
+  text-indent: 18px;
+  font-size: 16px;
+}
+
+.contact_footer {
+  width: 100%;
+  height: 390px;
+  background-color: #009688;
+  margin-top: 40px;
+}
+
+.contact_footer .door_design {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_footer .door_design .main_img img {
+  padding-top: 48px;
+}
+
+.contact_footer .door_design .links ul {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact_footer .door_design .divider {
+  padding-top: 28px;
+}
+
+.contact_footer .door_design h4 {
+  color: #fff;
+  padding-top: 40px;
+  font-weight: 400;
+  font-size: 16px;
 }

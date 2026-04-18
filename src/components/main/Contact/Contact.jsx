@@ -2,6 +2,10 @@ import React from 'react'
 import "./Contact.css"
 import header_logo from "../../../assets/header_logo.png"
 import { Link } from 'react-router-dom'
+import cotact_girl from "../../../assets/contact_girl.png"
+import logo_design from "../../../assets/logo_design.png"
+import logos from "../../../assets/logos.png"
+import Divider from "../../../assets/Divider.png"
 
 
 
@@ -82,7 +86,7 @@ const Contact = () => {
 
               <div className="img">
 
-                <img src="" alt="alexa_img" />
+                <img src={cotact_girl} alt="alexa_img" />
 
                 <h2>
                   Alexa Rawles
@@ -124,9 +128,76 @@ const Contact = () => {
 
             </div>
 
+            {/* adress_input */}
+
+            <div className="input_box2">
+
+              <div className="firstname_input">
+
+                <h3>
+                  Adress
+                </h3>
+
+                <input type="name" placeholder='Enter Your Address' />
+
+              </div>
+
+              <div className="lastname_input">
+
+                <h3>
+                  Birthday
+                </h3>
+
+                <input type="number" placeholder='Enter Your Birthday' />
+
+              </div>
+
+            </div>
+
           </div>
 
         </div>
+
+        <div className="contact_footer">
+
+            <div className="door_design">
+
+              <div className="main_img">
+
+                <img src={logo_design} alt="door_design" />
+
+              </div>
+
+              <div className="links">
+
+                <ul>
+                  <li>Home</li>
+                  <li>About</li>
+                  <li>Service</li>
+                  <li>Contact Us</li>
+                </ul>
+
+              </div>
+
+              <div className="logos">
+
+                <img src={logos} alt="social_logos" />
+
+              </div>
+
+              <div className="divider">
+
+                <img src={Divider} alt="divider" />
+
+              </div>
+
+              <h4>
+                Copyright Satyam Studio
+              </h4>
+
+            </div>
+
+          </div>
 
         </div>
 
