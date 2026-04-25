@@ -1,9 +1,9 @@
 import React from 'react'
 import Home from "./components/home/Home"
 import { Routes , Route } from 'react-router-dom'
-import Register from "./components/main/Register/Register"
-import Log_in_page from "./components/main/Login/Log_in_page"
-import Contact from './components/main/Contact/Contact'
+import Register from "./components/pages/Register/Register"
+import Log_in_page from "./components/pages/Login/Log_in_page"
+import Contact from './components/pages/Contact/Contact'
 
 const App = () => {
   return (
