@@ -33,7 +33,17 @@ const onSubmit = (data) => {
   return (
     <div>
       
+      <div className="user_profile">
 
+        <div className="user_image">
+          <img src="" alt="user_image" />
+        </div>
+
+        <div className="user_icon">
+          
+        </div>
+
+      </div>
 
     </div>
   )
